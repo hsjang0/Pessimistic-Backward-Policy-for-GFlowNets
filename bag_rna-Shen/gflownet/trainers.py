@@ -99,7 +99,7 @@ class Trainer:
           # Pessimistic training of backward policy
           for step_num in range(self.args.alg_N):
             if self.args.model in ['pbp']:
-              self.model.train_proxy(buffer_for_PBP[-random.randint(0,len(buffer_for_PBP)-1)])
+              self.model.train_pbp(buffer_for_PBP[-random.randint(0,len(buffer_for_PBP)-1)])
         
 
           # Training of GFlowNets
@@ -130,7 +130,7 @@ class Trainer:
           # Pessimistic training of backward policy
           for step_num in range(self.args.alg_N):
             if self.args.model in ['pbp']:
-              self.model.train_proxy(buffer_for_PBP[-random.randint(0,len(buffer_for_PBP)-1)])
+              self.model.train_pbp(buffer_for_PBP[-random.randint(0,len(buffer_for_PBP)-1)])
           
           
           # Training of GFlowNets
