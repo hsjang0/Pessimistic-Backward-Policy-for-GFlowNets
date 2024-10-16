@@ -8,7 +8,7 @@ We provide the PyTorch implementation for PBP-GFN framework here. Our implementa
 
 ---
 
-## Hyper-grid envrionemnt
+## Hyper-grid 
 
 The implementations in hyper-grid environment are based on [https://gist.github.com/malkin1729/9a87ce4f19acdc2c24225782a8b81c15](https://gist.github.com/malkin1729/9a87ce4f19acdc2c24225782a8b81c15) released by [Malkin et al.](https://arxiv.org/abs/2201.13259)
 
