@@ -1,5 +1,5 @@
 # Repository Overview
-We provide the PyTorch implementation for PBP-GFN framework here. Our implementations are based on prior code base (the code is currently being organized)
+We provide the PyTorch implementation for PBP-GFN framework here. Our implementations are based on the prior studies. The code is currently being organized.
 
 
 ---
