@@ -1145,14 +1145,12 @@ class PBP(BaseTBGFlowNet):
 
 
   
-  def train_proxy(self, batch):
+  def train_pbp(self, batch):
 
     for opt in self.optimizers:
       opt.zero_grad()
       
     _, log_pb_actions = self.batch_traj_back_logp_unroll(batch)
-    _, log_pf_actions = self.batch_traj_fwd_logp_unroll(batch)
-
     losses_est = torch.sum(-log_pb_actions)
     losses_est = losses_est / len(batch)
     losses_est = torch.clamp(losses_est, max=10000)
