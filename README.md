@@ -10,7 +10,7 @@ We provide the PyTorch implementation for PBP-GFN (NeurIPS 2024, [https://arxiv.
 
 ## Hyper-grid 
 
-The implementations in hyper-grid environment are based on [https://gist.github.com/malkin1729/9a87ce4f19acdc2c24225782a8b81c15](https://gist.github.com/malkin1729/9a87ce4f19acdc2c24225782a8b81c15) implemented by [Malkin et al.](https://arxiv.org/abs/2201.13259)
+The implementation for hyper-grid environment follows [https://gist.github.com/malkin1729/9a87ce4f19acdc2c24225782a8b81c15](https://gist.github.com/malkin1729/9a87ce4f19acdc2c24225782a8b81c15) implemented by [Malkin et al.](https://arxiv.org/abs/2201.13259)
 
 You can run your experiment by 
 
