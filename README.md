@@ -1,7 +1,7 @@
 # Repository Overview
 We provide the PyTorch implementation for PBP-GFN framework here. Our implementations are based on the prior studies. The overall code is currently being organized.
 
-```python
+```
 |-- {MIS-Zhang, Molecule-Recursion, bag_rna-Shen} # PBP-GFN for Maximum independent set, Molecular generation, and RNA-sequence generation
 |-- grid_PBP-GFN.py # PBP-GFN for 16x16x16 hyper grid
 ```
