@@ -1,4 +1,4 @@
-# Code references
+# Note
 Our implementation is based on "Towards Understanding and Improving GFlowNet Training" (https://github.com/maxwshen/gflownet). 
 
 
