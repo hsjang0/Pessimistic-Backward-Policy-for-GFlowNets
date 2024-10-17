@@ -12,6 +12,13 @@ We provide the PyTorch implementation for **PBP-GFN** (NeurIPS 2024, [https://ar
 
 ---
 
+## Maximum independent set, Molecule, Bag, and RNA sequence
+
+One can check the detailed implementations for these tasks in each directory.
+
+---
+
+
 ## Hyper-grid 
 
 The code for hyper-grid environment follows [https://gist.github.com/malkin1729/9a87ce4f19acdc2c24225782a8b81c15](https://gist.github.com/malkin1729/9a87ce4f19acdc2c24225782a8b81c15) implemented by [Malkin et al.](https://arxiv.org/abs/2201.13259)
@@ -21,9 +28,3 @@ You can run your experiment by
 ```bash
 python grid_PBP-GFN.py
 ```
-
----
-
-## Others
-
-One can check the detailed implementations for other tasks in each directory.
