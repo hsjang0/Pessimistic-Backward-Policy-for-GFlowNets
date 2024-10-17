@@ -2,9 +2,8 @@
 
 *The overall code is currently being organized.*
 
-We provide the PyTorch implementation for **PBP-GFN** (NeurIPS 2024, [https://arxiv.org/abs/2405.16012](https://arxiv.org/abs/2405.16012)) framework here. Our implementations are based on the settings of various prior studies, including both on-policy and off-policy training. 
-
-
+We provide the PyTorch implementation for **PBP-GFN** (NeurIPS 2024, [https://arxiv.org/abs/2405.16012](https://arxiv.org/abs/2405.16012)) framework here. Our implementations are based on the settings of various prior studies, including both on-policy and off-policy training, as described in **Appendix B** of our paper. 
+ 
 ```
 |-- {MIS-Zhang, Molecule-Recursion, bag_rna-Shen} # PBP-GFN for Maximum independent set, Molecular generation, and (RNA-sequence, bag) generation
 |-- grid_PBP-GFN.py # PBP-GFN for 16x16x16 hyper grid
