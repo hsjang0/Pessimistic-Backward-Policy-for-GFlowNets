@@ -164,7 +164,11 @@ class SEHFragTrainer(StandardOnlineTrainer):
         cfg.model.num_layers = 4
         cfg.model.indep_bck = True
         
+        # PBP-GFN params
         cfg.algo.method = "PBP_TB"
+        cfg.algo.alg_N = 8
+        cfg.algo.buffer_size = 20
+        
         cfg.algo.max_nodes = 9
         cfg.algo.sampling_tau = 0.95
         cfg.algo.illegal_action_logreward = -75

@@ -6,14 +6,14 @@ The code is based on [https://github.com/recursionpharma/gflownet](https://githu
 ### How to run?
 
 
-The code for pessimistic training of backward policy is implemented in 'trainer.py' and  'algo/pbp_tb.py'
+The code for pessimistic training of backward policy is implemented in 'trainer.py' and 'algo/pbp_tb.py'
 
 ```python
 # Pessimistic training of GFlowNets
-fixed_size_buffer.append((batch.to(self.device),None))
-fixed_size_buffer = fixed_size_buffer[-20:]     
 if self.cfg.algo.method == "PBP_TB": 
-    for fpb_step in range(0,8):
+    fixed_size_buffer.append((batch.to(self.device),None))
+    fixed_size_buffer = fixed_size_buffer[-self.cfg.algo.buffer_size:]     
+    for fpb_step in range(self.cfg.algo.alg_N):
         self.model.train()
         batch_sampled, traj_log_p_sampled = fixed_size_buffer[random.randint(0,len(fixed_size_buffer)-1)]
         loss = self.algo.compute_batch_losses_for_FPB(
