@@ -13,7 +13,7 @@ We provide the PyTorch implementation for **PBP-GFN** (NeurIPS 2024, [https://ar
 
 ## Maximum independent set, Molecule, Bag, and RNA sequence
 
-One can check the detailed implementations for these tasks in each directory.
+Check the detailed implementations for these tasks in each directory.
 
 ---
 
