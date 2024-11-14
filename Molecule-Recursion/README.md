@@ -26,5 +26,5 @@ You can run your experiment by
 
 ```bash
 cd tasks/
-python python seh_frag_our.py
+python seh_frag_our.py
 ```
